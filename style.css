@@ -1,257 +1,168 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
-
-*{
-    margin: 0; padding: 0;
-    box-sizing: border-box;
-    font-family: "Rubik", sans-serif;
-    overflow-x: hidden;
-    overflow-y:auto;
-}
-
-nav{
+.header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 75px;
-    padding-right: 60px;
-    height: 50px;
-}
-.logo img{
-    width: 150px;
+    width: 70pc;
+    margin-left: 100px;
 }
 
-.navcard{
-    display:flex;
-    width: 140px;
+.cartlogoheader {
+    display: flex;
+    font-size: 12px;
+    width: 100px;
+}
+
+.textheader {
+    margin-top: 4px;
     font-weight: 900;
-    align-items: center;
-    font-size: 15px;
 }
-
-.navcard img{
-    width: 35px;
-}
-
-.hero{
-    height: 475px;
+.kids{
     width: 100%;
-    background-image: url("./assets/kw-background.png");
-    background-size: 100% 100%;
+}
+.Shop{
+    font-size: 50px;
     color: white;
-    padding-left: 75px;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: -330px;
+    line-height: 70px;
 }
-
-.hero h1{
-    padding-top: 50px;
-    font-family: serif;
-    font-size: 70px;
-    line-height: 140%;
+.NewNew{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: -40px;
+    
 }
-
-.hero p{
-    font-size: 16px;
-}
-
-.discover{
-    padding: 100px 75px;
-}
-.discover h1{
-    font-family: serif;
-}
-.discover .items{
+.add{
+    border: 1px solid none;
+    background-color: rgb(97,150,255);
     display: flex;
-    justify-content: space-between;
-}
-
-.item{
-    width: 195px;
-}
-
-.item img{
-    padding-top: 10px;
-    width: 100%;
-}
-
-.item h1{
-    font-size: 18px;
-    font-family: sans-serif;
-}
-
-.item p{
-    margin: 10px 0;
-    font-size: 15px;
-    color: gray;
-}
-
-.cost{
-    display: flex;
-    justify-content: space-between;
+    width: 52px;
     align-items: center;
-    width: 100%;
+    justify-content: space-between;
+    height: 20px;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+.books{
+    border: 1px solid none;
+    height: 350px;
+    margin-top: 80px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.money{
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 15px;
+}
+.authour{
+    color: rgb(153,153,152);
+    margin-left: 15px;
+    margin-top: -10px;
 }
 
-.cost .add{
+.book11{
+margin-left: 15px;
+margin-top: 15px;
+}
+.title{
+    margin-left: 15px;
+    margin-top: -1px;
+}
+.row1{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    font-weight: 800;
-    background-color: #6196FF;
-    width: 70px;
-    height: 35px;
-    color: white;
-    border-radius: 5px;
-
 }
-.add h1{
-    font-size: 16px;
-}
-
-.add img{
-    width: 18px;
-    height: 25px;
-    margin-bottom: 10px;
-}
-
 .games{
-    padding-top: 50px;
-}
-
-.item2{
-    width:275px;
-}
-
-.item2 img{
-    width: 100%;
-}
-
-.item2 .add img{
-    width: 18px;
-    height: 25px;
-    margin-bottom: 10px;
-}
-
-footer{
-    background-color: black;
     display: flex;
     justify-content: space-between;
-    padding: 0 75px;
-    color: white;
-    width: 100vw;
-    height: 175px;
+    width: 95%;
+    margin: auto;
 }
-footer img{
-    width: 130px;
-    height: 134px;
-    border-radius: 50%;
-    margin-top: 10px;
-}
-
-.heading{
-    font-size: 24px;
-    font-weight: 500;
-    font-family: serif;
-}
-.right{
+.add1{
+    border: 1px solid none;
+    background-color: rgb(97,150,255);
     display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: center;
+    width: 52px;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    margin-top: 18px;
+    margin-right: 2px;
 }
-
-.right h1{
-    font-size: 18px;
-    margin-bottom: 10px;
+.homemades{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
 }
-
-.right p{
-    font-size: 14px;
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
-
-@media only screen and (max-width: 600px) {
-    
-    body {
-    text-align: center;
-    }
-    nav{
-        height: 55px;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    .logo img{
-        width: 155px;
-    }
-    
-    .navcard{
-        width: 150px;
-        font-size: 18px;
-        justify-content: space-between;
-    }
-    
-    .navcard img{
-        width: 40px;
-    }
-
-    .hero{
-        height: 200px;
-        font-size: 15px;
-        text-align: start;
-        padding-left: 25px;
-    }
-
-    .hero h1{
-        padding: 0;
-        font-size: 4vh;
-    }
-
-    .hero h3{
-        margin-top: 20px;
-        font-size: 15px;
-    }
-
-    .discover h1{
-        font-size: 29px;
-    }
-
-    .discover{
+.krishti{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+.matter{
+    line-height: 3px;
+    /* margin-top: 30px; */
+    margin-right: 10px;
+}
+@media (max-width:400px){
+    .row1{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
-    .discover .items{
-    flex-direction: column;
-    align-items: center;
-    }
-
-    .item{
-        width: 90%;
-        margin-bottom: 25px;
-    }
-
-    .item .name{
-        font-size: 24px;
-    }
-
-    .item .cost .add h1{
-        font-size: 20px;
-    }
-
+}
+@media (max-width:400px){
     .games{
-        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+}
+@media (max-width:400px){
+    .homemades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+}
+@media (max-width:400px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        justify-content: center;
+        width: auto;
     }
     footer{
-        padding: 0 25px;
+        width: auto;
     }
-
-    footer{
-        height:250px
-    }
-    .heading{
-        font-size: 30px;
-        font-weight: bold;
-    }
-    footer .right{
-        text-align: end;
+    .shop{
+        font-size:xx-small;
     }
 }
